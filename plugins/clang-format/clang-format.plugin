@@ -1,0 +1,9 @@
+[Plugin]
+Module=clang-format-plugin
+Name=ClangFormat
+Description=Provides integration with ClangFormat file formatting
+Authors=Ian Hernandez <ihernandezs@openmailbox.org>
+Copyright=Copyright © 2016 Ian Hernandez
+Depends=editor
+Builtin=true
+

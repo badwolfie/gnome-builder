@@ -3,6 +3,7 @@ SUBDIRS = \
 	autotools-templates \
 	build-tools \
 	clang \
+	clang-format \
 	command-bar \
 	contributing \
 	c-pack \

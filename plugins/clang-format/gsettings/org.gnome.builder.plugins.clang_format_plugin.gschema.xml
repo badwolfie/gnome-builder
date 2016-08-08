@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/org/gnome/builder/plugins/clang_format_plugin/" id="org.gnome.builder.plugins.clang_format_plugin" gettext-domain="gnome-builder">
+    <key type="s" name="format-style">
+      <default>'file'</default>
+      <summary>Format style</summary>
+      <description>Format style to be used.</description>
+    </key>
+
+    <key type="s" name="format-default-style">
+      <default>'LLVM'</default>
+      <summary>Format default style</summary>
+      <description>Format style to be used in case "format-style" is set to "file" no .clang-format file was found.</description>
+    </key>
+
+    <key type="b" name="format-on-save">
+      <default>false</default>
+      <summary>Format on save</summary>
+      <description>Whether or not should the file be formatted "on save".</description>
+    </key>
+  </schema>
+</schemalist>

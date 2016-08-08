@@ -273,6 +273,7 @@ m4_include([plugins/autotools-templates/configure.ac])
 m4_include([plugins/build-tools/configure.ac])
 m4_include([plugins/c-pack/configure.ac])
 m4_include([plugins/clang/configure.ac])
+m4_include([plugins/clang-format/configure.ac])
 m4_include([plugins/command-bar/configure.ac])
 m4_include([plugins/comment-code/configure.ac])
 m4_include([plugins/contributing/configure.ac])
@@ -566,6 +567,7 @@ echo "  Autotools ............................ : ${enable_autotools_plugin}"
 echo "  Build Tools .......................... : ${enable_build_tools_plugin}"
 echo "  C Language Pack ...................... : ${enable_c_pack_plugin}"
 echo "  Clang ................................ : ${enable_clang_plugin}"
+echo "  Clang Format ......................... : ${enable_clang_format_plugin}"
 echo "  Command Bar .......................... : ${enable_command_bar_plugin}"
 echo "  Comment Code.......................... : ${enable_comment_code_plugin}"
 echo "  Contribute ........................... : ${enable_contributing_plugin}"
